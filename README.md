@@ -9,6 +9,7 @@
 
 
 ## C++ Build
+At `/leetcode/cpp/` of the project, run the following commands:
 ```bash
 $ mkdir build
 $ cd build
@@ -19,4 +20,5 @@ $ ctest -V
 
 
 ## Logs
+- 2024/01/07: Add LeetCode 1, 2 | Modify gtest template
 - 2023/12/19: First commit - Add LeetCode 2235

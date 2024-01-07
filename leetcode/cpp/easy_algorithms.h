@@ -7,6 +7,12 @@
 #ifndef LEETCODE_CPP_EASY_ALGORITHMS_H_
 #define LEETCODE_CPP_EASY_ALGORITHMS_H_
 
+#include <vector>
+#include <unordered_map>
+
+using namespace std; 
+
+
 namespace easy_algorithms {
 
 /**
@@ -30,7 +36,19 @@ class EasyAlgorithms {
   virtual bool init();
 
   /**
-   * @brief Solution for the problem 2235_Add_Two_Integers.
+   * @brief Solution for the problem 1 Two_Sum.
+   * Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+   * You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
+   * 
+   * @example
+   * Nums =[1,2,6,5,3];
+   * target = 8
+   * output : [2,3]
+   */
+  std::vector<int> TwoSumS1(std::vector<int>& nums, int target);
+
+  /**
+   * @brief Solution for the problem 2235 Add_Two_Integers.
    * @note Constraints: -100 <= num1, num2 <= 100
    * @example
    * int result = addIntegers(12, 5);

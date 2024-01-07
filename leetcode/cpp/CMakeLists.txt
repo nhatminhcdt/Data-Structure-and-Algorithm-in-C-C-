@@ -24,20 +24,25 @@ enable_testing()
 
 # Add your source files
 set(SOURCE_FILES
-    easy_algorithms.h
-    easy_algorithms.cpp
-    gtest/gtest_easy_algorithms.cpp
+  easy_algorithms.h
+  easy_algorithms.cpp
+  medium_algorithms.h
+  medium_algorithms.cpp
+
+  gtest/gtest_test_template.h
+  gtest/gtest_easy_algorithms.cpp
+  gtest/gtest_medium_algorithms.cpp
 )
 
 add_executable(
-  gtest_easy_algorithms
+  gtest_algorithms
   ${SOURCE_FILES}
 )
 
 target_link_libraries(
-  gtest_easy_algorithms
+  gtest_algorithms
   GTest::gtest_main
 )
 
 include(GoogleTest)
-gtest_discover_tests(gtest_easy_algorithms)
+gtest_discover_tests(gtest_algorithms)
