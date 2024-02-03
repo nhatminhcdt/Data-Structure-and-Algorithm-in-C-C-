@@ -19,6 +19,25 @@ $ ctest -V
 ```
 
 
+## Todo
+1. Improve Codility Performance:
+- Lessons:
+	- "Sieve of Eratosthenes Count Non Divisible" (88%)
+	- "Prime and composite numbers Count Factors" (92%)
+- Exercises:
+	- "Sparse Binary Decomposition" (60%)
+	- "Count Bounded Slices" (70%)
+2. Complete Codility Tasks:
+- Lessons:
+	- Dynamic programming
+- Exercises:
+	- Data Structures
+	- Coding skills
+	- Algorithmic skills
+	- Contests
+
+
 ## Logs
+- 2024/02/01: Add Codility
 - 2024/01/07: Add LeetCode 1, 2 | Modify gtest template
 - 2023/12/19: First commit - Add LeetCode 2235
