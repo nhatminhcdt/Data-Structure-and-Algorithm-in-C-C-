@@ -1,10 +1,4 @@
-# Usage:
-#   sudo cmake -S . -B build
-#   sudo cmake --build build
-#   cd build
-#   ctest -V
-
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.10)
 project(my_project)
 
 # GoogleTest requires at least C++14

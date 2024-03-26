@@ -36,3 +36,6 @@ build/
 
 # For Python
 __pycache__/
+
+# Environment
+*code-workspace*
